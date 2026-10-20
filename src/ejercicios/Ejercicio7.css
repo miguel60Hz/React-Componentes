@@ -1,0 +1,200 @@
+.e7 {
+  position: relative;
+  width: 1407px;
+  height: 970px;
+  background: #000;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.e7-browser {
+  position: absolute;
+  left: 86px;
+  top: 49px;
+  width: 1234px;
+  height: 797px;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  background: #fff;
+}
+
+.e7-tabbar {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 1234px;
+  height: 55px;
+  background: #dedede;
+}
+
+.e7-dot {
+  position: absolute;
+  top: 26px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+.e7-dot-rojo { left: 24px; background: #f36c72; }
+.e7-dot-gris { left: 38px; background: #bbb; }
+.e7-dot-amarillo { left: 56px; background: #fec34b; }
+
+.e7-tab {
+  position: absolute;
+  left: 94px;
+  top: 17px;
+  width: 350px;
+  height: 38px;
+  background: #e3f6ff;
+  border-radius: 6px 6px 0 0;
+  display: flex;
+  align-items: center;
+  padding-left: 62px;
+}
+
+.e7-tab-texto {
+  font-size: 15px;
+  color: #444;
+}
+
+.e7-autor {
+  position: absolute;
+  left: 1165px;
+  top: 16px;
+  font-size: 15px;
+  color: #444;
+}
+
+.e7-urlbar {
+  position: absolute;
+  left: 0;
+  top: 56px;
+  width: 1234px;
+  height: 54px;
+  background: #eeeeee;
+}
+
+.e7-url-input {
+  position: absolute;
+  left: 94px;
+  top: 6px;
+  width: 980px;
+  height: 42px;
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.e7-url-texto {
+  font-size: 16px;
+  color: #444;
+}
+
+.e7-avatar {
+  position: absolute;
+  left: 1152px;
+  top: 14px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #555;
+}
+
+.e7-toolbar {
+  position: absolute;
+  left: 0;
+  top: 114px;
+  width: 1234px;
+  height: 96px;
+  background: #4453a4;
+  color: #fff;
+}
+
+.e7-logo {
+  position: absolute;
+  left: 22px;
+  top: 27px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.e7-nav {
+  position: absolute;
+  font-size: 22px;
+}
+
+.e7-nav-login { left: 475px; top: 30px; }
+.e7-nav-home { left: 643px; top: 28px; }
+.e7-nav-dashboard { left: 813px; top: 29px; }
+
+.e7-usuario {
+  position: absolute;
+  left: 1041px;
+  top: 27px;
+  font-size: 22px;
+}
+
+.e7-contenido {
+  position: absolute;
+  left: 0;
+  top: 210px;
+  width: 1234px;
+  height: 587px;
+  background: #fff;
+}
+
+.e7-addpost {
+  position: absolute;
+  left: 527px;
+  top: 29px;
+  width: 182px;
+  height: 52px;
+  background: #4159af;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.e7-recent {
+  position: absolute;
+  left: 125px;
+  top: 193px;
+  margin: 0;
+  font-size: 28px;
+  font-weight: normal;
+  color: #333;
+}
+
+.e7-tabla {
+  position: absolute;
+  left: 123px;
+  top: 319px;
+  width: 988px;
+  font-size: 20px;
+  color: #333;
+}
+
+.e7-fila {
+  display: flex;
+  align-items: center;
+  height: 77px;
+  background: #fff;
+}
+
+.e7-header-fila {
+  height: 77px;
+  background: #f3f3f3;
+  font-weight: bold;
+}
+
+.e7-fila-ultima {
+  border-top: 1px solid #d5d5d5;
+}
+
+.e7-c1 { width: 228px; padding-left: 36px; }
+.e7-c2 { width: 227px; }
+.e7-c3 { flex: 1; }

@@ -1,0 +1,138 @@
+.e5 {
+  position: relative;
+  width: 1067px;
+  height: 301px;
+  background: #fff;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.e5-topbar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1067px;
+  height: 20px;
+  background: #0d75a8;
+}
+
+.e5-header {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 1067px;
+  height: 75px;
+  background: #9fcee0;
+}
+
+.e5-nav a {
+  position: absolute;
+  top: 22px;
+  font-size: 19px;
+  color: #38525f;
+  text-decoration: none;
+}
+
+.e5-nav a:nth-child(1) { left: 137px; }
+.e5-nav a:nth-child(2) { left: 253px; }
+.e5-nav a:nth-child(3) { left: 383px; }
+.e5-nav a:nth-child(4) { left: 511px; }
+
+.e5-banda-azul {
+  position: absolute;
+  left: 0;
+  top: 95px;
+  width: 1067px;
+  height: 45px;
+  background: #33849f;
+}
+
+.e5-banda-fina {
+  position: absolute;
+  left: 0;
+  top: 140px;
+  width: 21px;
+  height: 161px;
+  background: #3f8ba5;
+}
+
+.e5-bloque-claro {
+  position: absolute;
+  left: 241px;
+  top: 95px;
+  width: 190px;
+  height: 150px;
+  background: #9fc9d9;
+}
+
+.e5-family {
+  position: absolute;
+  left: 9px;
+  top: 18px;
+  font-size: 27px;
+  color: #38525f;
+}
+
+.e5-caja-fecha {
+  position: absolute;
+  left: 24px;
+  top: 176px;
+  width: 128px;
+  height: 125px;
+  background: #0a4a65;
+}
+
+.e5-fecha {
+  position: absolute;
+  left: 26px;
+  top: 16px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.e5-dia {
+  position: absolute;
+  left: 33px;
+  top: 81px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.e5-post-titulo {
+  position: absolute;
+  left: 181px;
+  top: 186px;
+  white-space: nowrap;
+}
+
+.e5-trip {
+  font-size: 32px;
+  font-weight: bold;
+  color: #4a6570;
+}
+
+.e5-vacations {
+  font-size: 19px;
+  color: #4a6570;
+  margin-left: 5px;
+}
+
+.e5-post {
+  position: absolute;
+  left: 427px;
+  top: 186px;
+  font-size: 34px;
+  font-weight: bold;
+  color: #4a6570;
+}
+
+.e5-texto {
+  position: absolute;
+  left: 181px;
+  top: 252px;
+  margin: 0;
+  font-size: 20px;
+  color: #777;
+  white-space: nowrap;
+}

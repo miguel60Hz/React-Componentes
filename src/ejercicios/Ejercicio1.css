@@ -1,0 +1,117 @@
+.e1 {
+  position: relative;
+  width: 1000px;
+  height: 532px;
+  background: #fff;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+.e1-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1000px;
+  height: 82px;
+  background: #009ac6;
+  color: #fff;
+}
+
+.e1-titulo {
+  position: absolute;
+  left: 12px;
+  top: 18px;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.e1-headline {
+  position: absolute;
+  left: 310px;
+  top: 26px;
+  font-size: 30px;
+}
+
+.e1-cols {
+  position: absolute;
+  top: 82px;
+  left: 0;
+  width: 1000px;
+  height: 404px;
+}
+
+.e1-col-izq {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 257px;
+  height: 404px;
+  background: #f36621;
+}
+
+.e1-col-centro {
+  position: absolute;
+  left: 257px;
+  top: 0;
+  width: 493px;
+  height: 404px;
+  background: #ffefd5;
+}
+
+.e1-col-der {
+  position: absolute;
+  left: 750px;
+  top: 0;
+  width: 250px;
+  height: 404px;
+  background: #c6de88;
+}
+
+.e1-cols h2 {
+  position: absolute;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+.e1-col-izq h2 {
+  left: 11px;
+  top: 14px;
+  color: #fff;
+}
+
+.e1-col-centro h2 {
+  left: 13px;
+  top: 14px;
+}
+
+.e1-col-der h2 {
+  left: 7px;
+  top: 12px;
+}
+
+.e1-parrafos {
+  position: absolute;
+  left: 10px;
+  top: 52px;
+  width: 470px;
+}
+
+.e1-parrafos p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #333;
+  white-space: nowrap;
+}
+
+.e1-footer {
+  position: absolute;
+  left: 0;
+  top: 486px;
+  width: 1000px;
+  height: 46px;
+  background: #009ac6;
+  color: #fff;
+  font-size: 17px;
+  padding: 12px 0 0 11px;
+}

@@ -1,0 +1,61 @@
+.e4 {
+  position: relative;
+  width: 682px;
+  height: 482px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.e4-header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 682px;
+  height: 108px;
+  background: #fff;
+}
+
+.e4-header h1 {
+  position: absolute;
+  left: 6px;
+  top: 4px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.e4-nav {
+  position: absolute;
+  left: 5px;
+  top: 66px;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.e4-nav a {
+  color: #556677;
+  text-decoration: underline;
+}
+
+.e4-sep {
+  color: #333;
+  margin: 0 6px;
+}
+
+.e4-mapa {
+  position: absolute;
+  left: 4px;
+  top: 112px;
+  width: 672px;
+  height: 366px;
+}
+
+.e4-franja {
+  position: absolute;
+  left: 0;
+  top: 478px;
+  width: 682px;
+  height: 3px;
+  background: #c5c8cd;
+}

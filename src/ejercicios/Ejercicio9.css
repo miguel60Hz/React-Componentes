@@ -1,0 +1,272 @@
+.e9 {
+  position: relative;
+  width: 1193px;
+  height: 1029px;
+  background: #fff;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.e9-header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1193px;
+  height: 82px;
+  background: #fff;
+}
+
+.e9-logo {
+  position: absolute;
+  left: 23px;
+  top: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #d99a5f;
+}
+
+.e9-buscar {
+  position: absolute;
+  left: 860px;
+  top: 14px;
+  width: 120px;
+  height: 30px;
+  border: 1px solid #c4b7c1;
+  background: #fafafa;
+  color: #888;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+}
+
+.e9-nav {
+  position: absolute;
+  left: 0;
+  top: 83px;
+  width: 1193px;
+  height: 54px;
+  background: #2c4fad;
+}
+
+.e9-nav a {
+  position: absolute;
+  top: 10px;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.e9-nav a:nth-child(1) { left: 14px; }
+.e9-nav a:nth-child(2) { left: 111px; }
+.e9-nav a:nth-child(3) { left: 208px; }
+.e9-nav a:nth-child(4) { left: 287px; }
+
+.e9-col-izq {
+  position: absolute;
+  left: 6px;
+  top: 138px;
+  width: 234px;
+  height: 844px;
+}
+
+.e9-noticias {
+  position: absolute;
+  left: 6px;
+  top: 14px;
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #111;
+}
+
+.e9-noticia {
+  position: absolute;
+  left: 6px;
+  width: 228px;
+}
+
+.e9-noticia-fecha {
+  display: block;
+  font-size: 13px;
+  color: #888;
+  line-height: 24px;
+}
+
+.e9-noticia-titulo {
+  display: block;
+}
+
+.e9-noticia-linea {
+  display: block;
+  font-size: 17px;
+  color: #8888cc;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.e9-enlaces-titulo {
+  position: absolute;
+  left: 6px;
+  top: 365px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+  color: #111;
+}
+
+.e9-enlace {
+  position: absolute;
+  left: 6px;
+  font-size: 14px;
+  color: #8888cc;
+  text-decoration: none;
+}
+
+.e9-publicidad {
+  position: absolute;
+  left: 0;
+  top: 482px;
+  width: 234px;
+  height: 347px;
+  background: #fff2c2;
+}
+
+.e9-pub-titulo {
+  margin: 0;
+  padding: 12px 0 0 26px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.e9-pub-linea {
+  position: absolute;
+  left: 14px;
+  font-size: 13px;
+  color: #333;
+  white-space: nowrap;
+}
+
+.e9-pub-seguir {
+  position: absolute;
+  left: 14px;
+  bottom: 16px;
+  font-size: 13px;
+  color: #d99a5f;
+}
+
+.e9-col-centro {
+  position: absolute;
+  left: 283px;
+  top: 138px;
+  width: 698px;
+  height: 844px;
+}
+
+.e9-titulo-centro {
+  position: absolute;
+  left: 1px;
+  top: 12px;
+  margin: 0;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 37px;
+  color: #dd8a3c;
+}
+
+.e9-caja-gris {
+  position: absolute;
+  left: 1px;
+  top: 102px;
+  width: 152px;
+  height: 160px;
+  background: #dededc;
+}
+
+.e9-linea {
+  position: absolute;
+  font-size: 15px;
+  color: #111;
+  white-space: nowrap;
+}
+
+.e9-seguir {
+  position: absolute;
+  font-size: 15px;
+  color: #dd8a3c;
+}
+
+.e9-seguir-centro-1 { left: 3px; top: 393px; }
+.e9-seguir-centro-2 { left: 2px; top: 779px; }
+
+.e9-subtitulo-centro {
+  position: absolute;
+  left: 0;
+  top: 429px;
+  margin: 0;
+  font-size: 22px;
+  font-weight: normal;
+  color: #dd8a3c;
+  white-space: nowrap;
+}
+
+.e9-col-der {
+  position: absolute;
+  left: 987px;
+  top: 138px;
+  width: 196px;
+  height: 844px;
+}
+
+.e9-der-titulo {
+  position: absolute;
+  left: 10px;
+  top: 18px;
+  margin: 0;
+  font-size: 21px;
+  font-weight: normal;
+  color: #dd8a3c;
+}
+
+.e9-linea-der {
+  left: 3px;
+}
+
+.e9-seguir-der-1 { left: 8px; top: 294px; }
+.e9-seguir-der-2 { left: 7px; top: 597px; }
+
+.e9-der-subtitulo {
+  position: absolute;
+  left: 7px;
+  top: 320px;
+  margin: 0;
+  font-size: 24px;
+  font-weight: normal;
+  color: #dd8a3c;
+}
+
+.e9-footer {
+  position: absolute;
+  left: 0;
+  top: 986px;
+  width: 1193px;
+  height: 43px;
+  background: #f6f6f6;
+}
+
+.e9-footer-izq {
+  position: absolute;
+  left: 4px;
+  top: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+.e9-footer-der {
+  position: absolute;
+  left: 1024px;
+  top: 6px;
+  font-size: 13px;
+  color: #333;
+}

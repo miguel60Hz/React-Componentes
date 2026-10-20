@@ -1,0 +1,144 @@
+.e8 {
+  position: relative;
+  width: 1640px;
+  height: 860px;
+  background: #f9fafc;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.e8-sidebar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 248px;
+  height: 860px;
+  background: linear-gradient(180deg, #3988c0 0%, #2c72b0 100%);
+}
+
+.e8-logo {
+  position: absolute;
+  left: 28px;
+  top: 28px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.e8-menu {
+  position: absolute;
+  left: 0;
+  top: 100px;
+  width: 248px;
+  height: 450px;
+  color: #fff;
+}
+
+.e8-item {
+  position: absolute;
+  left: 65px;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.e8-item-1 { top: 39px; }
+.e8-item-2 { top: 117px; }
+.e8-item-3 { top: 189px; }
+.e8-item-4 { top: 268px; }
+.e8-item-5 { top: 344px; }
+.e8-item-6 { top: 418px; }
+
+.e8-badge {
+  position: absolute;
+  left: 169px;
+  top: 341px;
+  width: 72px;
+  height: 26px;
+  background: #fec600;
+  color: #333;
+  font-size: 13px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.e8-contenido {
+  position: absolute;
+  left: 248px;
+  top: 0;
+  width: 1392px;
+  height: 860px;
+  background: #f9fafc;
+}
+
+.e8-titulo {
+  position: absolute;
+  left: 40px;
+  top: 110px;
+  margin: 0;
+  font-size: 24px;
+  font-weight: normal;
+  color: #333;
+}
+
+.e8-card {
+  position: absolute;
+  top: 119px;
+  width: 199px;
+  height: 118px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.e8-card::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 120px;
+  width: 187px;
+  height: 12px;
+  background: #e4e4e6;
+}
+
+.e8-card-morado { left: 939px; background: #b293ce; }
+.e8-card-verde { left: 1165px; background: #60d29f; }
+
+.e8-card-numero {
+  margin-top: 18px;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.e8-card-label {
+  margin-top: 10px;
+  font-size: 16px;
+  max-width: 150px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.e8-subtitulo {
+  position: absolute;
+  margin: 0;
+  font-size: 19px;
+  font-weight: normal;
+  color: #333;
+  white-space: nowrap;
+}
+
+.e8-subtitulo-1 { left: 47px; top: 288px; }
+.e8-subtitulo-2 { left: 46px; top: 729px; }
+
+.e8-chart1 {
+  position: absolute;
+  left: 482px;
+  top: 350px;
+  width: 435px;
+  height: 330px;
+}

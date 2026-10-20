@@ -1,0 +1,56 @@
+.e2 {
+  position: relative;
+  width: 1062px;
+  height: 662px;
+  background: #fff;
+}
+
+.e2-caja {
+  position: absolute;
+  border: 2px solid #9a9a9a;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #222;
+}
+
+.e2-cabecera {
+  left: 420px;
+  top: 28px;
+  width: 222px;
+  height: 56px;
+  font-size: 30px;
+}
+
+.e2-menu {
+  left: 8px;
+  top: 125px;
+  width: 180px;
+  height: 222px;
+  font-size: 30px;
+}
+
+.e2-contenidos {
+  left: 202px;
+  top: 125px;
+  width: 578px;
+  height: 465px;
+  font-size: 40px;
+}
+
+.e2-lateral {
+  left: 800px;
+  top: 125px;
+  width: 257px;
+  height: 465px;
+  font-size: 34px;
+}
+
+.e2-pie {
+  left: 8px;
+  top: 600px;
+  width: 1049px;
+  height: 60px;
+  font-size: 30px;
+}
